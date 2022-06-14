@@ -1,0 +1,125 @@
+header {
+    background: #8DB3A2;
+}
+
+#frase {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+#logo {
+    margin-bottom: 8px;
+}
+#menu_inicio {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+ nav {
+     position: absolute;
+     top: 70px;
+     right: 0;
+ }
+
+ nav li {
+     display: inline;
+     margin: 0 0 0 20px;
+ }
+
+ nav a{
+     background: #ffffff;
+     text-decoration: none;
+     text-transform: uppercase;
+     color:black;
+     font-weight: bold;
+     font-size: 22px;
+     font-family: 'Courier New', Courier, monospace;
+     transition: 1s background;
+     border-radius: 15px;
+     padding: 5px;
+ }
+
+ nav a:hover {
+	color: #ffffff;
+	background: #385f4e;
+    
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 7px 22px;
+    width: 30%;
+}
+
+
+textarea {
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 35%;
+    padding: 15px 0;
+    background-color: #8DB3A2;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #385f4e;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
